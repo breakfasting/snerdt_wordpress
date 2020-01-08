@@ -1,0 +1,423 @@
+/*
+Theme Name: Snerd Theme
+Theme URI: 140.122.143.108/snerd/
+Author: Wayne Su
+Author URI: 140.122.143.108/snerd/
+Description: Snerd Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: snerdtheme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*
+ * Globals
+ */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, "微軟正黑體", "微软雅黑", serif;
+  color: #555;
+
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+hr {
+  width: 80px;
+  height: 2px;
+  background-color: #1875a6;
+
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.shadow {
+   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+   -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+   -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+   box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+.dropdown-menu > li > a:active {
+    background-color: #1875a6;
+    background-image: none;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/*Wordpress align*/
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+
+/*
+ * Blog posts
+ */
+
+
+.blog-post {
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.blog-post h5 {
+    font-family: Georgia, "Times New Roman", Times, "微軟正黑體", "微软雅黑", serif;
+    color: #6c757d;
+}
+
+.blog-text p {
+    text-indent : 4em ;
+    margin-bottom: 3rem;
+}
+
+.blog-text {
+      line-height: 1.8rem;
+}
+
+.blog-text li{
+  margin-bottom: 1rem;
+}
+
+.blog-text h4 {
+  margin-top: 2rem;
+}
+
+.blog-post-title {
+  background-color: #1875a6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.blog-post-title h3{
+  color: #f8f9fa;
+}
+
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+.header-logo {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.sm-logo{
+    width: 300px;
+    margin: 10px auto;
+}
+
+.header-search{
+    height: 140px;
+}
+
+ .boxes{
+   text-align: center;
+   background:#fff;
+   margin-bottom: 30px;
+ }
+
+ .box .fa{
+   font-size:45px !important;
+   margin-bottom:10px;
+ }
+
+ .box{
+   padding:15px;
+   border:#ccc 1px solid;
+ }
+
+.navbar {
+    /* margin-bottom: 20px; */
+    border: 1px solid;
+    border-color: #e7e7e7;
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding-top: 15px;
+}
+
+.footer ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+
+.copy {
+  background: #f5f5f5;
+  border-top: 1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact {
+    padding: 10px;
+}
+
+.notice {
+    padding-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9em;
+}
+
+.team {
+    margin-bottom: 30px;
+}
+
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #1875a6;
+    margin: auto;
+}
+
+.disease {
+    font-size: 1.2rem;
+}
+
+.diseaseh1 {
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 2px solid #1875a6;
+}
+
+.list-group-item.active{
+        background-color: #1875a6;
+}
+.card-img-bottom {
+  color: #fff;
+  height: 100%;
+  min-height: 210px;
+  background-size: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1875a6;
+}
+
+.btn-primary:hover {
+    background-color: #156792;
+}
+
+a {
+      color: #1875a6;
+}
+
+a:hover {
+      color: #156792;
+}
+
+.news {
+    margin-bottom: 30px;
+}
+
+.lightactive {
+    background-color: #f7f7f9;
+}
+
+/*not updated below*/
+.linkcard {
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+.linkcard .card {
+        overflow: hidden;
+}
+
+.cardbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s;
+    opacity: 0.9;
+}
+
+.cardbg:hover {
+    transform: scale(1.07);
+    opacity: 1;
+    text-decoration: none;
+}
+
+/*about the card columns*/
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+/*about the new title*/
+.blog-imgtitle {
+  height: 220px;
+  background-color: #1875a6;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.blog-imgtitle h1 {
+  color: white;
+  font-size: 3.6em;
+}
+
+.blog-imgtitle h4 {
+  color: white;
+  font-size: 1.6em;
+  margin-top: -6px;
+}
+
+.orange{
+  background-color: #d9822c;
+  display: inline-block;
+  padding: 7px;
+}
+
+.orange h2 {
+  margin:0px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.thickborder {
+  border-left: 2px solid #dddddd;
+}
+
+.money {
+  font-size: 2em;
+}
+
+.bg-orange {
+  background-color: #d9822c;  
+}
+
+.whiteborder {
+  border: 2px solid white;
+}
+
+.size-full {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.size-large {
+    max-width: 100%;
+    height: auto;
+    display: block;    
+}
